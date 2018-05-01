@@ -1,6 +1,6 @@
-body {
+/* body {
     text-align: center;
-}
+} */
 
 .obj:nth-child(even) {
     width: 100%;
@@ -13,7 +13,8 @@ body {
 }
 
 .obj p {
-    display: inline !important;
+    display: inline-block !important;
+    text-align: center;
     width: 50% !important;
     margin: 0 !important;
     padding: 0 !important;
