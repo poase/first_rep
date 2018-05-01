@@ -1,10 +1,12 @@
+{% load static %}
 <html>
 <head>
   <title>хуй</title>
+  <link rel="stylesheet" href="{% static "css/index_style.css" %}">
 </head>
 <body>
   {% for object in objects %}
-    <div><p>{{ object.name }}</p><p>{{ object.number }}</p></div>
+    <div class="obj"><p>{{ object.name }}</p><p>{{ object.number }}</p></div>
   {% endfor %}
 </body>
 <footer>

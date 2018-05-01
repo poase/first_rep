@@ -1,0 +1,9 @@
+.obj:nth-child(even) {
+    width: 100%;
+    background-color: bisque;
+}
+
+.obj:nth-child(odd) {
+    width: 100%;
+    background-color: salmon;
+}
