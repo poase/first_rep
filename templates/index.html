@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="{% static "css/index_style.css" %}">
 </head>
 <body>
+    <h1>{{ objects.count() }} хуёв</h1>
   {% for object in objects %}
     <div class="obj"><p>{{ object.name }}</p><p>{{ object.number }}</p></div>
   {% endfor %}
