@@ -1,8 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render_to_response
 from .models import TestBase
 
 def main(request):
     objects = TestBase.objects.all()
-    return render('index.html', {'objects': objects})
+    return render_to_response('index.html', {'objects': objects})
 
 # Create your views here.
